@@ -67,6 +67,13 @@ b.drive()
 Create two subclasses "Triangle" and "Rectangle" that inherit from "Shape" 
 and calculate the area of the shape using the values provided.
 
+class Shape:
+    def __init__(self):
+        pass
+    def area(self):
+        print("returns the area the shape")
+
+
 class Rectangle(Shape):
     def __init__(self,side1, side2):
         super().__init__()
